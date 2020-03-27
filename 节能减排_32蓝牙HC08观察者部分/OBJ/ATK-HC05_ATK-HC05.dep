@@ -1,5 +1,5 @@
 Dependencies for Project 'ATK-HC05', Target 'ATK-HC05': (DO NOT MODIFY !)
-F (.\main.c)(0x5E7CEEAF)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\FWLIB\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\TIMER -I ..\HARDWARE\USART3 -I ..\HARDWARE\HC05 -I ..\USMART -I ..\HARDWARE\OLED-I.\RTE\_ATK-HC05-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+F (.\main.c)(0x5E7D77CF)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\FWLIB\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\TIMER -I ..\HARDWARE\USART3 -I ..\HARDWARE\HC05 -I ..\USMART -I ..\HARDWARE\OLED-I.\RTE\_ATK-HC05-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
 I (..\SYSTEM\sys\sys.h)(0x53B52F60)
 I (..\USER\stm32f4xx.h)(0x542BA484)
 I (..\CORE\core_cm4.h)(0x53FC31DA)
@@ -45,7 +45,7 @@ I (..\HARDWARE\OLED\bmp.h)(0x5E6C42DC)
 I (..\USMART\usmart.h)(0x528CCEDC)
 I (..\USMART\usmart_str.h)(0x53673F42)
 I (..\HARDWARE\HC05\hc05.h)(0x5E736621)
-I (..\HARDWARE\USART3\usart3.h)(0x5E7CEA84)
+I (..\HARDWARE\USART3\usart3.h)(0x5E7D75AA)
 I (..\HARDWARE\KEY\key.h)(0x53C0BE24)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
 F (.\stm32f4xx_it.c)(0x5426CDF6)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\FWLIB\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\TIMER -I ..\HARDWARE\USART3 -I ..\HARDWARE\HC05 -I ..\USMART -I ..\HARDWARE\OLED-I.\RTE\_ATK-HC05-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_it.o --omf_browse ..\obj\stm32f4xx_it.crf --depend ..\obj\stm32f4xx_it.d)
@@ -196,7 +196,7 @@ I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
 I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
 I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAE)
 I (..\SYSTEM\delay\delay.h)(0x53B7797E)
-F (..\HARDWARE\TIMER\timer.c)(0x5451E186)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\FWLIB\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\TIMER -I ..\HARDWARE\USART3 -I ..\HARDWARE\HC05 -I ..\USMART -I ..\HARDWARE\OLED-I.\RTE\_ATK-HC05-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\timer.o --omf_browse ..\obj\timer.crf --depend ..\obj\timer.d)
+F (..\HARDWARE\TIMER\timer.c)(0x5E7D77CF)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\FWLIB\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\TIMER -I ..\HARDWARE\USART3 -I ..\HARDWARE\HC05 -I ..\USMART -I ..\HARDWARE\OLED-I.\RTE\_ATK-HC05-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\timer.o --omf_browse ..\obj\timer.crf --depend ..\obj\timer.d)
 I (..\HARDWARE\TIMER\timer.h)(0x5450F1FA)
 I (..\SYSTEM\sys\sys.h)(0x53B52F60)
 I (..\USER\stm32f4xx.h)(0x542BA484)
@@ -234,7 +234,7 @@ I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
 I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
 I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAE)
 I (..\HARDWARE\LED\led.h)(0x53B53724)
-F (..\HARDWARE\USART3\usart3.c)(0x5E7CF033)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\FWLIB\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\TIMER -I ..\HARDWARE\USART3 -I ..\HARDWARE\HC05 -I ..\USMART -I ..\HARDWARE\OLED-I.\RTE\_ATK-HC05-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\usart3.o --omf_browse ..\obj\usart3.crf --depend ..\obj\usart3.d)
+F (..\HARDWARE\USART3\usart3.c)(0x5E7D780C)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\FWLIB\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\TIMER -I ..\HARDWARE\USART3 -I ..\HARDWARE\HC05 -I ..\USMART -I ..\HARDWARE\OLED-I.\RTE\_ATK-HC05-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\usart3.o --omf_browse ..\obj\usart3.crf --depend ..\obj\usart3.d)
 I (..\SYSTEM\delay\delay.h)(0x53B7797E)
 I (..\SYSTEM\sys\sys.h)(0x53B52F60)
 I (..\USER\stm32f4xx.h)(0x542BA484)
@@ -271,7 +271,7 @@ I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
 I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
 I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
 I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAE)
-I (..\HARDWARE\USART3\usart3.h)(0x5E7CEA84)
+I (..\HARDWARE\USART3\usart3.h)(0x5E7D75AA)
 I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5CEB79E4)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
@@ -317,7 +317,7 @@ I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
 I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAE)
 I (..\SYSTEM\usart\usart.h)(0x5397010E)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
-I (..\HARDWARE\USART3\usart3.h)(0x5E7CEA84)
+I (..\HARDWARE\USART3\usart3.h)(0x5E7D75AA)
 I (..\HARDWARE\HC05\hc05.h)(0x5E736621)
 I (..\HARDWARE\LED\led.h)(0x53B53724)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)

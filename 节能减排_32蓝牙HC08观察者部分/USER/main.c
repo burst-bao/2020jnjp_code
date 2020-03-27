@@ -3,7 +3,6 @@
 #include "usart.h"  
 #include "led.h"
 
-
 #include "oled.h"
 #include "bmp.h"
 
@@ -13,13 +12,6 @@
 #include "key.h" 	 
 #include "string.h"	 
 
-//ALIENTEK 探索者STM32F407开发板 扩展实验1
-//ATK-HC05蓝牙串口模块实验 -库函数版本
-//技术支持：www.openedv.com
-//淘宝店铺：http://eboard.taobao.com  
-//广州市星翼电子科技有限公司  
-//作者：正点原子 @ALIENTEK
-
 
 void init()
 {
@@ -27,15 +19,17 @@ void init()
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);//设置系统中断优先级分组2
 	uart_init(115200);		//初始化串口波特率为115200
 	usmart_dev.init(84); 		//初始化USMART	
+	
 	OLED_Init();				//初始化OLED	//x:0~127		y:0~63
 	OLED_ShowString(0,0,"OLED init success!",12);
 	OLED_Refresh();
-	delay_ms(1000);
+	delay_ms(500);
+	
 	HC05_Init();				//初始化蓝牙串口
-	USART3_RX_STA=0;
 	OLED_ShowString(0,12,"HC-08 init success!",12);
 	OLED_Refresh();
-	delay_ms(1000);
+	delay_ms(500);
+	
 	OLED_ShowString(0,36,"Started!",12);
 	OLED_Refresh();
 	delay_ms(2000);
@@ -55,8 +49,10 @@ void init()
 	//			AT+MODE=1（设置模式：?查询，0默认，1低功耗，2睡眠）  1.2模式，需要先发送一个数据才可唤醒，故最后设置这个
 	//			AT+AVDA=xxx
 }
+
 int main(void)
 { 
+	int i;
 	init();
  	while(1)
 	{	

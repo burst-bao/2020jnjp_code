@@ -13,15 +13,21 @@
 //All rights reserved									  
 ////////////////////////////////////////////////////////////////////////////////// 	 
 
-
+	//TIM7_Int_Init(10000-1,8400-1);	//1000ms中断一次
+	//TIM_Cmd(TIM7, DISABLE); //关闭定时器7
+	//TIM_SetCounter(TIM7,0);//计数器清空    	//先别用定时器控制报警了，中断优先级容易乱套    				 
+	//TIM_Cmd(TIM7, ENABLE);  //使能定时器7 	10ms中断一次
+	
 extern vu16 USART3_RX_STA;
+extern float ad[3];
 
-//定时器7中断服务程序		    
+// 定时器7中断服务程序
 void TIM7_IRQHandler(void)
 { 	
 	if (TIM_GetITStatus(TIM7, TIM_IT_Update) != RESET)//是更新中断
 	{	 			   
-		USART3_RX_STA|=1<<15;	//标记接收完成
+		//USART3_RX_STA|=1<<15;	//标记接收完成
+		
 		TIM_ClearITPendingBit(TIM7, TIM_IT_Update  );  //清除TIM7更新中断标志    
 		TIM_Cmd(TIM7, DISABLE);  //关闭TIM7 
 	}	    

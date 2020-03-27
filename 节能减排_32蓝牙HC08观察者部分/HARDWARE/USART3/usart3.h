@@ -22,13 +22,9 @@ extern u8  USART3_RX_BUF[USART3_MAX_RECV_LEN]; 		//接收缓冲,最大USART3_MAX_RECV_
 extern u8  USART3_TX_BUF[USART3_MAX_SEND_LEN]; 		//发送缓冲,最大USART3_MAX_SEND_LEN字节
 extern u16 USART3_RX_STA;   						//接收数据状态
 	
-extern u8 integer;
-extern u8 decimal;
-extern float ad;
-extern u8 ad_RX_BUF[4];	//0.1.2用来接收数据，第3位用来判断是哪一个ADC，
-extern int flag;
-extern int i;
-
+extern u8 ad_BUF[3][3];
+extern float ad[3];
+extern float std[3];
 
 void usart3_init(u32 bound);				//串口3初始化 
 void TIM7_Int_Init(u16 arr,u16 psc);
