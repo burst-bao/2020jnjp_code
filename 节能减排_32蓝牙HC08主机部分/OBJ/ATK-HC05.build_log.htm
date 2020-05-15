@@ -21,18 +21,28 @@ Target DLL:      Segger\JL2CM3.dll V2.99.18.0
 Dialog DLL:      TCM.DLL V1.36.2.0
  
 <h2>Project:</h2>
-D:\陈宝轩文件\节能减排比赛\节能减排_32蓝牙观察者部分\USER\ATK-HC05.uvprojx
-Project File Date:  03/14/2020
+D:\陈宝轩文件\节能减排比赛\节能减排_32蓝牙HC08主机部分\USER\ATK-HC05.uvprojx
+Project File Date:  05/15/2020
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'ATK-HC05'
-compiling usart3.c...
-compiling main.c...
+compiling menu.c...
+..\HARDWARE\CORD\menu.c(91): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  		if(ad_123[i]<0.5)
+..\HARDWARE\CORD\menu.c(108): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	if(ad_123[1]<0.5)
+..\HARDWARE\CORD\menu.c(121): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	if(ad_123[0]<0.5 && ad_123[1]<0.5 && ad_123[2]<0.5)
+..\HARDWARE\CORD\menu.c(121): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	if(ad_123[0]<0.5 && ad_123[1]<0.5 && ad_123[2]<0.5)
+..\HARDWARE\CORD\menu.c(121): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	if(ad_123[0]<0.5 && ad_123[1]<0.5 && ad_123[2]<0.5)
+..\HARDWARE\CORD\menu.c: 5 warnings, 0 errors
 linking...
-Program Size: Code=22590 RO-data=7170 RW-data=5556 ZI-data=3788  
+Program Size: Code=24028 RO-data=7172 RW-data=7600 ZI-data=3808  
 FromELF: creating hex file...
-"..\OBJ\ATK-HC05.axf" - 0 Error(s), 0 Warning(s).
+"..\OBJ\ATK-HC05.axf" - 0 Error(s), 5 Warning(s).
 
 <h2>Software Packages used:</h2>
 

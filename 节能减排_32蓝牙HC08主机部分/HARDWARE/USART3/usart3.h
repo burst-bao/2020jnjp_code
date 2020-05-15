@@ -24,10 +24,12 @@ extern u16 USART3_RX_STA;   						//接收数据状态
 	
 extern u8 integer;
 extern u8 decimal;
-extern float ad;
-extern u8 ad_RX_BUF[3];
+extern u8 ad_RX_BUF[4];
+extern u8 ad_BUF[3][3];
+extern float ad_123[3];
 extern int flag;
 extern int i;
+extern int connected;
 
 
 void usart3_init(u32 bound);				//串口3初始化 

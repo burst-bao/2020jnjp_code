@@ -1,6 +1,8 @@
 #include "oled.h"
 #include "stdlib.h"
-#include "oledfont.h"  	 
+//下面俩字库在oled中include后可以调用，不需要在main文件里面include
+#include "oledfont.h" 
+#include "bmp.h"
 #include "delay.h"
 
 u8 OLED_GRAM[144][8];

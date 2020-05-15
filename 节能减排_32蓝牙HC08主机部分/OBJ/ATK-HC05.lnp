@@ -8,6 +8,7 @@
 "..\obj\usart3.o"
 "..\obj\hc05.o"
 "..\obj\oled.o"
+"..\obj\menu.o"
 "..\obj\delay.o"
 "..\obj\sys.o"
 "..\obj\usart.o"

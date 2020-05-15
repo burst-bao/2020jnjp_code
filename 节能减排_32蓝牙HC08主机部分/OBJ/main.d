@@ -41,10 +41,10 @@
 ..\obj\main.o: ..\HARDWARE\LED\led.h
 ..\obj\main.o: ..\HARDWARE\OLED\oled.h
 ..\obj\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-..\obj\main.o: ..\HARDWARE\OLED\bmp.h
 ..\obj\main.o: ..\USMART\usmart.h
 ..\obj\main.o: ..\USMART\usmart_str.h
 ..\obj\main.o: ..\HARDWARE\HC05\hc05.h
 ..\obj\main.o: ..\HARDWARE\USART3\usart3.h
 ..\obj\main.o: ..\HARDWARE\KEY\key.h
 ..\obj\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\main.o: ..\HARDWARE\CORD\menu.h
